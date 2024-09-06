@@ -35,10 +35,10 @@ class Model extends Car{
     }
 
     showCars(){
-        return this.carAvailable()+"it is a "+this.model;
+        return this.carAvailable()+" it is a "+this.model;
     }
 }
 
 let myCar = new Model("Ford", "Mustang")
-console.log(myCar)
-//console.log()
+//console.log(myCar)
+console.log(myCar.showCars())
